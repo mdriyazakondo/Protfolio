@@ -25,7 +25,7 @@ const Expreance = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h2 className="text-4xl font-bold text-blue-500">0-1</h2>
+        <h2 className="text-4xl font-bold text-blue-500">1</h2>
         <span className="text-xl font-semibold mt-1">Years Experience</span>
       </div>
     </div>

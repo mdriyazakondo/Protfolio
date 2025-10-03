@@ -9,15 +9,17 @@ import Contact from "./Contact";
 import Footer from "../components/Footer";
 const Home = () => {
   return (
-    <div className="max-w-7xl mx-auto">
-      <HomeRoot />
-      <Expreance />
-      <About />
-      <SkillSection />
-      <ProjectSection />
-      <Contact />
+    <>
+      <div className="max-w-7xl mx-auto">
+        <HomeRoot />
+        <Expreance />
+        <About />
+        <SkillSection />
+        <ProjectSection />
+        <Contact />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
