@@ -48,7 +48,7 @@ const Contact = () => {
 
       <div className="mx-5 md:mx-auto flex items-center justify-center gap-0 md:gap-10 flex-col md:flex-row">
         <div className="max-w-4xl w-full mx-auto bg-[#0d1b2a] rounded-lg shadow-md p-10">
-          <form onSubmit={onSubmit}>
+          <form onSubmit={onSubmit} className="space-y-4">
             <div className="mb-4">
               <label className="block mb-2 text-gray-50" htmlFor="name">
                 Name
