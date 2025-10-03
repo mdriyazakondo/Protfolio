@@ -7,6 +7,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import SectionTitle from "../components/SectionTitle";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -29,8 +30,10 @@ const Contact = () => {
       if (data.success) {
         setResult("Form Submitted Successfully");
         event.target.reset();
+        toast.success("Form Submitted Successfully");
       } else {
         console.error("Error", data);
+        toast.error("Form Submitted is not found");
         setResult(data.message);
       }
     } catch (err) {
@@ -44,7 +47,7 @@ const Contact = () => {
       <SectionTitle title={"Contact Us"} />
 
       <div className="mx-5 md:mx-auto flex items-center justify-center gap-0 md:gap-10 flex-col md:flex-row">
-        <div className="w-full md:w-1/2 mx-auto bg-[#0d1b2a] rounded-lg shadow-md p-10">
+        <div className="max-w-4xl w-full mx-auto bg-[#0d1b2a] rounded-lg shadow-md p-10">
           <form onSubmit={onSubmit}>
             <div className="mb-4">
               <label className="block mb-2 text-gray-50" htmlFor="name">
@@ -97,7 +100,7 @@ const Contact = () => {
               </button>
             </div>
 
-            {result && <p className="text-center text-white mt-2">{result}</p>}
+            {/* {result && <p className="text-center text-white mt-2">{result}</p>} */}
           </form>
         </div>
       </div>

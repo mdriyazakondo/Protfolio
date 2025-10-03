@@ -20,9 +20,6 @@ const ProjectSection = () => {
           <Projecct key={index} project={project} />
         ))}
       </div>
-      <Link to="/project">
-        <SectionTitle title={"All Projects"} />
-      </Link>
     </div>
   );
 };

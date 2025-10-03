@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import { Outlet } from "react-router-dom";
 import SmoothFollower from "../components/SmoothFollower";
 import NeuralGlow from "../components/NeuralGlow";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Main = () => {
   return (
@@ -25,6 +27,19 @@ const Main = () => {
           <Outlet />
         </main>
       </div>
+
+      {/* Toast notifications */}
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 };
