@@ -5,6 +5,7 @@ import { RiFacebookFill } from "react-icons/ri";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { ImLinkedin2 } from "react-icons/im";
 import { Link } from "react-router-dom";
+import { MdEmail } from "react-icons/md";
 
 // Container animation (stagger effect)
 const container = {
@@ -97,6 +98,15 @@ const Home = () => {
             >
               <ImLinkedin2 className="w-6 h-6 " />
             </Link>
+          </div>
+          <div className="bg-orange-500 rounded-full text-white p-1 md:p-1.5">
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=mdriyazakondo265@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdEmail className="w-6 h-6" />
+            </a>
           </div>
         </motion.div>
 

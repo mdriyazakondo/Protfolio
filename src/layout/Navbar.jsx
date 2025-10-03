@@ -32,7 +32,7 @@ const Navbar = () => {
     <>
       <header
         className={`sticky top-0 z-50 ${
-          !dark ? "bg-white" : "bg-gradient-to-r from-[#141E30] to-[#243B55]"
+          !dark ? "bg-white" : "bg-gradient-to-r from-[#141E30]/20 to-[#243B55]/20"
         } shadow-md transition-all duration-300`}
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
@@ -61,34 +61,6 @@ const Navbar = () => {
               ))}
             </ul>
           </nav>
-
-          {/* Right Buttons */}
-          <div className="flex items-center gap-4">
-            {/* Dark/Light Toggle */}
-            <button
-              onClick={() => setDark(!dark)}
-              className="cursor-pointer "
-              aria-label="Toggle Dark/Light Mode "
-            >
-              {dark ? (
-                <Sun size={20} className="text-white w-6 h-6" />
-              ) : (
-                <Moon size={20} className="w-6 h-6" />
-              )}
-            </button>
-
-            {/* Login Button Desktop */}
-
-            {/* Mobile Menu Button */}
-            <button
-              className={`lg:hidden ${
-                dark ? "text-white" : " text-black"
-              } cursor-pointer`}
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
-          </div>
         </div>
       </header>
 

@@ -22,6 +22,7 @@ import {
   SiNpm,
   SiYarn,
   SiNodedotjs,
+  SiGithubactions,
 } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 
@@ -33,17 +34,22 @@ const skills = [
   { name: "TypeScript", icon: <SiTypescript size={40} color="#3178C6" /> },
   { name: "React", icon: <SiReact size={40} color="#61DBFB" /> },
   { name: "Redux", icon: <SiRedux size={40} color="#764ABC" /> },
-  { name: "Next.js", icon: <RiNextjsFill size={40} color="#000000" /> },
+  {
+    name: "Next.js",
+    icon: <RiNextjsFill className="bg-white " size={40} color="#000000" />,
+  },
   { name: "Node.js", icon: <SiNodedotjs size={40} color="#3C873A" /> },
-  { name: "Express", icon: <SiExpress size={40} color="#000000" /> },
+  {
+    name: "Express",
+    icon: <SiExpress className="bg-white p-1"  size={40} color="#000000" />,
+  },
   { name: "MongoDB", icon: <SiMongodb size={40} color="#47A248" /> },
   { name: "Git", icon: <SiGit size={40} color="#F05032" /> },
-  { name: "GitHub", icon: <SiGithub size={40} color="#000000" /> },
+  { name: "GitHub", icon: <SiGithubactions size={40} color="#000000" /> },
   { name: "Vercel", icon: <SiVercel size={40} color="#000000" /> },
   { name: "Postman", icon: <SiPostman size={40} color="#FF6C37" /> },
   { name: "Firebase", icon: <SiFirebase size={40} color="#FFCA28" /> },
   { name: "Sass", icon: <SiSass size={40} color="#CD6799" /> },
-  // { name: "Docker", icon: <SiDocker size={40} color="#2496ED" /> },
   { name: "NPM", icon: <SiNpm size={40} color="#CB3837" /> },
   { name: "Yarn", icon: <SiYarn size={40} color="#2C8EBB" /> },
 ];

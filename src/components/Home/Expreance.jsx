@@ -7,8 +7,8 @@ const Expreance = () => {
       <div className="flex flex-col items-center">
         <CountUp
           start={0}
-          end={4}
-          duration={1}
+          end={10}
+          duration={1.5}
           className="text-4xl font-bold text-blue-500"
         />
         <span className="text-xl font-semibold mt-1">Projects</span>

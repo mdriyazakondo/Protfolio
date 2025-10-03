@@ -5,10 +5,12 @@ import About from "../pages/About";
 import Skills from "../pages/Skills";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
+import Error from "../components/Error";
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",

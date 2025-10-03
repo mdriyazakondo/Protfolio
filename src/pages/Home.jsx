@@ -5,6 +5,8 @@ import About from "./About";
 import Skills from "./Skills";
 import SkillSection from "../components/SkillSection";
 import ProjectSection from "../components/ProjectSection";
+import Contact from "./Contact";
+import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div className="max-w-7xl mx-auto">
@@ -13,6 +15,8 @@ const Home = () => {
       <About />
       <SkillSection />
       <ProjectSection />
+      <Contact />
+      <Footer />
     </div>
   );
 };
