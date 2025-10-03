@@ -24,7 +24,7 @@ import {
   SiNodedotjs,
   SiGithubactions,
 } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiNextjsLine } from "react-icons/ri";
 
 const skills = [
   { name: "HTML5", icon: <SiHtml5 size={40} color="#E34F26" /> },
@@ -36,12 +36,12 @@ const skills = [
   { name: "Redux", icon: <SiRedux size={40} color="#764ABC" /> },
   {
     name: "Next.js",
-    icon: <RiNextjsFill className="bg-white " size={40} color="#000000" />,
+    icon: <RiNextjsLine className="bg-white " size={40} color="#000000" />,
   },
   { name: "Node.js", icon: <SiNodedotjs size={40} color="#3C873A" /> },
   {
     name: "Express",
-    icon: <SiExpress className="bg-white p-1"  size={40} color="#000000" />,
+    icon: <SiExpress size={40} color="#FFFFFF" />, // force white color
   },
   { name: "MongoDB", icon: <SiMongodb size={40} color="#47A248" /> },
   { name: "Git", icon: <SiGit size={40} color="#F05032" /> },

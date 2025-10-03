@@ -1,15 +1,3 @@
-// import React from 'react'
-
-// const SkillSection = () => {
-//   return (
-//     <div>
-
-//     </div>
-//   )
-// }
-
-// export default SkillSection
-
 "use client";
 
 import React from "react";
@@ -40,19 +28,19 @@ import SectionTitle from "./SectionTitle";
 
 const skills = [
   { name: "React", icon: <SiReact size={40} color="#61DBFB" /> },
-  { name: "Next.js", icon: <RiNextjsFill size={40} color="#000000" /> },
+  { name: "Next.js", icon: <RiNextjsFill size={40} color="#FFFFFF" /> }, // fixed
   { name: "JavaScript", icon: <SiJavascript size={40} color="#F7DF1E" /> },
   { name: "TypeScript", icon: <SiTypescript size={40} color="#3178C6" /> },
   { name: "Node.js", icon: <SiNodedotjs size={40} color="#3C873A" /> },
-  { name: "Express", icon: <SiExpress size={40} color="#000000" /> },
+  { name: "Express", icon: <SiExpress size={40} color="#FFFFFF" /> }, // fixed
   { name: "MongoDB", icon: <SiMongodb size={40} color="#47A248" /> },
   { name: "HTML5", icon: <SiHtml5 size={40} color="#E34F26" /> },
   { name: "CSS3", icon: <SiCss3 size={40} color="#1572B6" /> },
   { name: "Tailwind", icon: <SiTailwindcss size={40} color="#38B2AC" /> },
   { name: "Redux", icon: <SiRedux size={40} color="#764ABC" /> },
   { name: "Git", icon: <SiGit size={40} color="#F05032" /> },
-  { name: "GitHub", icon: <SiGithub size={40} color="#000000" /> },
-  { name: "Vercel", icon: <SiVercel size={40} color="#000000" /> },
+  { name: "GitHub", icon: <SiGithub size={40} color="#000000" /> }, // চাইলে এটাও white করতে পারো
+  { name: "Vercel", icon: <SiVercel size={40} color="#000000" /> }, // এটাও white করলে ভালো লাগবে
   { name: "Postman", icon: <SiPostman size={40} color="#FF6C37" /> },
   { name: "Firebase", icon: <SiFirebase size={40} color="#FFCA28" /> },
   { name: "Sass", icon: <SiSass size={40} color="#CD6799" /> },

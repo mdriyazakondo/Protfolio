@@ -1,40 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, Moon, Sun, X } from "lucide-react";
+import { X } from "lucide-react";
 
 const navbarLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Skills", path: "/skills" },
   { name: "Project", path: "/project" },
-  // { name: "Services", path: "/services" },
   { name: "Contact", path: "/contact" },
 ];
 
 const Navbar = () => {
-  // Load dark mode from localStorage, default true
-  const [dark, setDark] = useState(() => {
-    const savedMode = localStorage.getItem("darkMode");
-    return savedMode ? JSON.parse(savedMode) : true;
-  });
-
   const [isOpen, setIsOpen] = useState(false);
-
-  // Update body class & localStorage whenever dark changes
-  useEffect(() => {
-    document.body.classList.remove(dark ? "light" : "dark");
-    document.body.classList.add(dark ? "dark" : "light");
-    localStorage.setItem("darkMode", JSON.stringify(dark));
-  }, [dark]);
 
   return (
     <>
-      <header
-        className={`sticky top-0 z-50 ${
-          !dark ? "bg-white" : "bg-gradient-to-r from-[#141E30]/20 to-[#243B55]/20"
-        } shadow-md transition-all duration-300`}
-      >
+      <header className="sticky top-0 z-50 bg-black/20 text-white shadow-md transition-all duration-300">
         <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
           {/* Logo */}
           <h2 className="font1 text-xl sm:text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
@@ -49,9 +31,7 @@ const Navbar = () => {
                   key={i}
                   to={link.path}
                   className={({ isActive }) =>
-                    `relative ${
-                      !dark ? "text-black" : "text-white"
-                    } text-lg font-medium tracking-wide transition-all duration-300 hover:text-cyan-400 ${
+                    `relative text-white text-lg font-medium tracking-wide transition-all duration-300 hover:text-cyan-400 ${
                       isActive ? "text-cyan-400 after:w-full" : "after:w-0"
                     } after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-cyan-400 after:transition-all after:duration-300`
                   }
@@ -61,6 +41,14 @@ const Navbar = () => {
               ))}
             </ul>
           </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="lg:hidden text-white"
+            onClick={() => setIsOpen(true)}
+          >
+            ☰
+          </button>
         </div>
       </header>
 
@@ -84,19 +72,14 @@ const Navbar = () => {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ duration: 0.32 }}
-              className={`fixed top-0 right-0 z-50 h-screen w-64 px-6 py-6 shadow-lg ${
-                dark ? "bg-[#141E30]/95 text-white" : "bg-white text-gray-800"
-              }`}
+              className="fixed top-0 right-0 z-50 h-screen w-64 px-6 py-6 shadow-lg bg-black text-white"
             >
               <div className="flex items-center justify-between">
                 <button
                   onClick={() => setIsOpen(false)}
                   className="cursor-pointer"
                 >
-                  <X
-                    size={24}
-                    className={dark ? "text-white" : "text-gray-800"}
-                  />
+                  <X size={24} className="text-white" />
                 </button>
               </div>
 
@@ -106,7 +89,7 @@ const Navbar = () => {
                     key={i}
                     to={link.path}
                     onClick={() => setIsOpen(false)}
-                    className="text-lg font-medium hover:text-cyan-400 transition-colors"
+                    className="text-lg font-medium text-white hover:text-cyan-400 transition-colors"
                   >
                     {link.name}
                   </NavLink>
