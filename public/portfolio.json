@@ -1,12 +1,48 @@
 [
   {
     "id": "proj-01",
+    "title": "Shoese Project",
+    "description": "A modern e-commerce platform for shoes — users can browse, search, filter by category, view product details, and manage their cart seamlessly.",
+    "techStack": ["React.js", "Tailwind CSS", "React Router", "Context API"],
+    "liveUrl": "https://shoese-project.vercel.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/Shoese-Project.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/image.png?updatedAt=1759620621426",
+    "tags": ["React", "E-commerce", "UI", "Responsive"],
+    "year": 2025,
+    "highlights": [
+      "Category filter and search functionality",
+      "Product detail pages with dynamic routing",
+      "Cart management with quantity control",
+      "Responsive layout for mobile and desktop",
+      "Discount price calculation logic"
+    ]
+  },
+  {
+    "id": "proj-02",
+    "title": "Forever Project",
+    "description": "A personal portfolio and service showcase platform — users can explore projects, services, and contact details with smooth navigation and responsive design.",
+    "techStack": ["React.js", "Tailwind CSS", "React Router", "Framer Motion"],
+    "liveUrl": "https://forever-project-seven.vercel.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/forever-project.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/image.png?updatedAt=1759621219953",
+    "tags": ["React", "Portfolio", "UI", "Responsive"],
+    "year": 2025,
+    "highlights": [
+      "Clean and modern UI/UX design",
+      "Responsive layout for all screen sizes",
+      "Smooth scrolling and animations",
+      "Showcase of projects and services",
+      "Interactive contact section"
+    ]
+  },
+  {
+    "id": "proj-03",
     "title": "Book Vibe",
     "description": "A clean and responsive book-explorer app — users can browse, search, and track reading status of books.",
     "techStack": ["React.js", "Tailwind CSS", "LocalStorage"],
     "liveUrl": "https://book-vite-rho.vercel.app/",
-    "repoUrl": "https://github.com/your-username/book-vibe",
-    "image": "/images/book-vibe.png",
+    "repoUrl": "https://github.com/mdriyazakondo/book-vite.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/image.png?updatedAt=1759621402905",
     "tags": ["React", "UI", "Responsive"],
     "year": 2025,
     "highlights": [
@@ -15,38 +51,7 @@
       "Fast client-side search & filter"
     ]
   },
-  {
-    "id": "proj-02",
-    "title": "Recipe Hub",
-    "description": "A recipe sharing platform — browse, filter, and save favorite recipes.",
-    "techStack": ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    "liveUrl": "https://recipe-hub.example.com",
-    "repoUrl": "https://github.com/your-username/recipe-hub",
-    "image": "/images/recipe-hub.png",
-    "tags": ["Fullstack", "CRUD", "Auth"],
-    "year": 2024,
-    "highlights": [
-      "User authentication with JWT",
-      "Create, edit, delete recipes",
-      "Image upload & responsive gallery"
-    ]
-  },
-  {
-    "id": "proj-03",
-    "title": "ShopStream (E-commerce)",
-    "description": "A small e-commerce storefront — browse products, manage cart, and checkout using Stripe.",
-    "techStack": ["React.js", "Redux", "Node.js", "Stripe"],
-    "liveUrl": "https://shopstream.example.com",
-    "repoUrl": "https://github.com/your-username/shopstream",
-    "image": "/images/shopstream.png",
-    "tags": ["Ecommerce", "Payments", "Redux"],
-    "year": 2025,
-    "highlights": [
-      "Stripe integration for payments",
-      "State management with Redux",
-      "Product filtering & pagination"
-    ]
-  },
+
   {
     "id": "proj-04",
     "title": "Dev Portfolio (Personal Site)",
@@ -97,18 +102,18 @@
   },
   {
     "id": "proj-07",
-    "title": "Book Vibe",
-    "description": "A clean and responsive book-explorer app — users can browse, search, and track reading status of books.",
-    "techStack": ["React.js", "Tailwind CSS", "LocalStorage"],
-    "liveUrl": "https://book-vite-rho.vercel.app/",
-    "repoUrl": "https://github.com/your-username/book-vibe",
-    "image": "/images/book-vibe.png",
-    "tags": ["React", "UI", "Responsive"],
+    "title": "ShopStream (E-commerce)",
+    "description": "A small e-commerce storefront — browse products, manage cart, and checkout using Stripe.",
+    "techStack": ["React.js", "Redux", "Node.js", "Stripe"],
+    "liveUrl": "https://shopstream.example.com",
+    "repoUrl": "https://github.com/your-username/shopstream",
+    "image": "/images/shopstream.png",
+    "tags": ["Ecommerce", "Payments", "Redux"],
     "year": 2025,
     "highlights": [
-      "Responsive layout (mobile + desktop)",
-      "Store read status in LocalStorage",
-      "Fast client-side search & filter"
+      "Stripe integration for payments",
+      "State management with Redux",
+      "Product filtering & pagination"
     ]
   },
   {
