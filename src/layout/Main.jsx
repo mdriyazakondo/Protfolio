@@ -15,10 +15,7 @@ const Main = () => {
       }}
     >
       {/* Persistent background */}
-      <NeuralGlow />
-
-      {/* Smooth follower on top of background */}
-      <SmoothFollower />
+  
 
       {/* Main content */}
       <div style={{ position: "relative", zIndex: 1 }}>

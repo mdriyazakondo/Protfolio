@@ -35,7 +35,7 @@ const About = () => {
         {/* Left Image with animation */}
         <motion.div variants={item}>
           <motion.div
-            className="border-2 border-white rounded-full overflow-hidden w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-[500px] lg:h-[500px]"
+            className="border-2 border-white rounded-full overflow-hidden w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-[600px] lg:h-[600px]"
             animate={{
               y: [0, -20, 0], // floating animation বড় স্ক্রিনে
             }}
@@ -47,7 +47,7 @@ const About = () => {
             }}
           >
             <img
-              className="w-full h-full "
+              className="w-full h-full border-1 rounded-full border-blue-600"
               src="/mdriyazakondo-removebg-preview.png"
               alt="Profile"
             />
@@ -136,12 +136,6 @@ const About = () => {
               Hire Me
             </Link>
           </motion.div>
-
-          {/* Quote */}
-          <motion.p variants={item} className="text-gray-400 italic mt-6">
-            "When I’m not coding, I enjoy learning new technologies and solving
-            real-world problems."
-          </motion.p>
         </motion.div>
       </motion.div>
     </div>

@@ -7,18 +7,16 @@ import { ImLinkedin2 } from "react-icons/im";
 import { Link } from "react-router-dom";
 import { MdEmail } from "react-icons/md";
 
-// Container animation (stagger effect)
 const container = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.3, // প্রতিটি child 0.3 সেকেন্ড পরে animate হবে
+      staggerChildren: 0.3,
     },
   },
 };
 
-// Item animation (fade from top)
 const item = {
   hidden: { opacity: 0, y: -30 },
   show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
@@ -139,7 +137,7 @@ const Home = () => {
         transition={{ duration: 1 }}
       >
         <motion.div
-          className="border-2 border-white rounded-full overflow-hidden w-72 h-72 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]"
+          className="border-2 border-white rounded-full overflow-hidden w-72 h-72 sm:w-80 sm:h-80 md:w-[600px] md:h-[600px]"
           animate={{
             y: [0, -20, 0], // continuous floating animation
           }}
@@ -151,7 +149,7 @@ const Home = () => {
           }}
         >
           <img
-            className="w-full h-full "
+            className="w-full h-full border-1 rounded-full border-blue-600 "
             src="/mdriyazakondo-removebg-preview.png"
             alt="Profile"
           />
