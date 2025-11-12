@@ -17,6 +17,33 @@
   },
   {
     "id": "proj-02",
+    "title": "FlavorFleet – Food Delivery App",
+    "description": "A full-stack food delivery web app where users can browse restaurants, add items to cart, and make secure online payments using Stripe and SSLCommerz.",
+    "techStack": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Stripe",
+      "SSLCommerz",
+      "Tailwind CSS"
+    ],
+    "liveUrl": "https://genuine-zabaione-067a51.netlify.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/3D_Model.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1762957945931",
+    "tags": ["MERN Stack", "Food App", "E-commerce"],
+    "year": 2025,
+    "highlights": [
+      "JWT authentication and role-based access control",
+      "Integrated Stripe and SSLCommerz payment gateways",
+      "Responsive UI built with Tailwind CSS",
+      "Admin dashboard for managing products and orders",
+      "RESTful API built with Express and MongoDB"
+    ]
+  },
+  {
+    "id": "proj-03",
     "title": "ToyTopia – Kids Toy Store",
     "description": "A modern toy store web app built with React and Firebase. Users can browse toys by category, view details, and manage their own products securely.",
     "techStack": ["React.js", "Firebase", "Tailwind CSS"],
@@ -33,7 +60,7 @@
     ]
   },
   {
-    "id": "proj-03",
+    "id": "proj-04",
     "title": "Forever Project",
     "description": "A personal portfolio and service showcase platform — users can explore projects, services, and contact details with smooth navigation and responsive design.",
     "techStack": ["React.js", "Tailwind CSS", "React Router", "Framer Motion"],
@@ -51,7 +78,7 @@
     ]
   },
   {
-    "id": "proj-04",
+    "id": "proj-05",
     "title": "Shoese Project",
     "description": "A modern e-commerce platform for shoes — users can browse, search, filter by category, view product details, and manage their cart seamlessly.",
     "techStack": ["React.js", "Tailwind CSS", "React Router", "Context API"],
