@@ -1,22 +1,7 @@
 [
+
   {
     "id": "proj-01",
-    "title": "Toy Topia",
-    "description": "My personal portfolio — showcases projects, blog links, contact form, and resume download.",
-    "techStack": ["Next.js", "Tailwind CSS", "Vercel"],
-    "liveUrl": "https://toy-topia-93fc0.web.app/",
-    "repoUrl": "https://github.com/mdriyazakondo/Toy-topia.git",
-    "image": "https://ik.imagekit.io/2o23yla4n/table/image.png?updatedAt=1762948604550",
-    "tags": ["Next.js", "Static Site", "SEO"],
-    "year": 2025,
-    "highlights": [
-      "SSG with Next.js",
-      "Optimized images & SEO",
-      "Contact form connected to Email API"
-    ]
-  },
-  {
-    "id": "proj-02",
     "title": "FlavorFleet – Food Delivery App",
     "description": "A full-stack food delivery web app where users can browse restaurants, add items to cart, and make secure online payments using Stripe and SSLCommerz.",
     "techStack": [
@@ -43,13 +28,13 @@
     ]
   },
   {
-    "id": "proj-03",
+    "id": "proj-02",
     "title": "ToyTopia – Kids Toy Store",
     "description": "A modern toy store web app built with React and Firebase. Users can browse toys by category, view details, and manage their own products securely.",
     "techStack": ["React.js", "Firebase", "Tailwind CSS"],
     "liveUrl": "https://assignment-8-delta-nine.vercel.app/",
     "repoUrl": "https://github.com/mdriyazakondo/Assignment-8.git",
-    "image": "https://ik.imagekit.io/2o23yla4n/table/image.png?updatedAt=1762949813317",
+    "image": "https://ik.imagekit.io/2o23yla4n/table/image.png?updatedAt=1762948604550",
     "tags": ["React", "Firebase", "Tailwind CSS"],
     "year": 2025,
     "highlights": [
@@ -60,7 +45,7 @@
     ]
   },
   {
-    "id": "proj-04",
+    "id": "proj-03",
     "title": "Forever Project",
     "description": "A personal portfolio and service showcase platform — users can explore projects, services, and contact details with smooth navigation and responsive design.",
     "techStack": ["React.js", "Tailwind CSS", "React Router", "Framer Motion"],
@@ -78,7 +63,7 @@
     ]
   },
   {
-    "id": "proj-05",
+    "id": "proj-04",
     "title": "Shoese Project",
     "description": "A modern e-commerce platform for shoes — users can browse, search, filter by category, view product details, and manage their cart seamlessly.",
     "techStack": ["React.js", "Tailwind CSS", "React Router", "Context API"],
