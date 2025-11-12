@@ -1,30 +1,19 @@
 [
-
   {
     "id": "proj-01",
-    "title": "FlavorFleet – Food Delivery App",
-    "description": "A full-stack food delivery web app where users can browse restaurants, add items to cart, and make secure online payments using Stripe and SSLCommerz.",
-    "techStack": [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-      "Stripe",
-      "SSLCommerz",
-      "Tailwind CSS"
-    ],
+    "title": "3D Model Viewer",
+    "description": "A web application to view and interact with 3D models in real-time. Users can rotate, zoom, and explore 3D objects seamlessly in the browser.",
+    "techStack": ["React.js", "Tailwind CSS", "Vercel", "mongodb"],
     "liveUrl": "https://genuine-zabaione-067a51.netlify.app/",
     "repoUrl": "https://github.com/mdriyazakondo/3D_Model.git",
     "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1762957945931",
-    "tags": ["MERN Stack", "Food App", "E-commerce"],
+    "tags": ["React", "3D Viewer", "mongodb"],
     "year": 2025,
     "highlights": [
-      "JWT authentication and role-based access control",
-      "Integrated Stripe and SSLCommerz payment gateways",
-      "Responsive UI built with Tailwind CSS",
-      "Admin dashboard for managing products and orders",
-      "RESTful API built with Express and MongoDB"
+      "Interactive 3D model viewing in browser",
+      "Zoom, rotate, and pan controls",
+      "Optimized for desktop and mobile screens",
+      "Built with Three.js for real-time rendering"
     ]
   },
   {
