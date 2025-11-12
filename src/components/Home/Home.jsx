@@ -137,7 +137,7 @@ const Home = () => {
         transition={{ duration: 1 }}
       >
         <motion.div
-          className="border-2 border-white rounded-full overflow-hidden w-72 h-72 sm:w-80 sm:h-80 md:w-[600px] md:h-[600px]"
+          className="border-2 border-white rounded-full overflow-hidden w-72 h-72 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px]"
           animate={{
             y: [0, -20, 0], // continuous floating animation
           }}

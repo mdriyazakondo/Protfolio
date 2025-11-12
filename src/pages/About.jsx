@@ -35,7 +35,7 @@ const About = () => {
         {/* Left Image with animation */}
         <motion.div variants={item}>
           <motion.div
-            className="border-2 border-white rounded-full overflow-hidden w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-[600px] lg:h-[600px]"
+            className="border-2 border-white rounded-full overflow-hidden w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px]"
             animate={{
               y: [0, -20, 0], // floating animation বড় স্ক্রিনে
             }}

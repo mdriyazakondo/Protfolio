@@ -1,12 +1,12 @@
 [
   {
     "id": "proj-01",
-    "title": "Dev Portfolio (Personal Site)",
+    "title": "Toy Topia",
     "description": "My personal portfolio — showcases projects, blog links, contact form, and resume download.",
     "techStack": ["Next.js", "Tailwind CSS", "Vercel"],
-    "liveUrl": "https://yourname.dev",
-    "repoUrl": "https://github.com/your-username/portfolio",
-    "image": "/images/portfolio.png",
+    "liveUrl": "https://toy-topia-93fc0.web.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/Toy-topia.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/table/image.png?updatedAt=1762948604550",
     "tags": ["Next.js", "Static Site", "SEO"],
     "year": 2025,
     "highlights": [
@@ -15,15 +15,31 @@
       "Contact form connected to Email API"
     ]
   },
-
   {
     "id": "proj-02",
+    "title": "ToyTopia – Kids Toy Store",
+    "description": "A modern toy store web app built with React and Firebase. Users can browse toys by category, view details, and manage their own products securely.",
+    "techStack": ["React.js", "Firebase", "Tailwind CSS"],
+    "liveUrl": "https://assignment-8-delta-nine.vercel.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/Assignment-8.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/table/image.png?updatedAt=1762949813317",
+    "tags": ["React", "Firebase", "Tailwind CSS"],
+    "year": 2025,
+    "highlights": [
+      "Firebase Authentication (Email & Google Login)",
+      "Dynamic routes for toy details",
+      "Add, Update, and Delete toys with secure access",
+      "Responsive design with Tailwind CSS"
+    ]
+  },
+  {
+    "id": "proj-03",
     "title": "Forever Project",
     "description": "A personal portfolio and service showcase platform — users can explore projects, services, and contact details with smooth navigation and responsive design.",
     "techStack": ["React.js", "Tailwind CSS", "React Router", "Framer Motion"],
     "liveUrl": "https://forever-project-seven.vercel.app/",
     "repoUrl": "https://github.com/mdriyazakondo/forever-project.git",
-    "image": "https://ik.imagekit.io/2o23yla4n/image.png?updatedAt=1759621219953",
+    "image": "https://ik.imagekit.io/2o23yla4n/table/image.png?updatedAt=1762949213144",
     "tags": ["React", "Portfolio", "UI", "Responsive"],
     "year": 2025,
     "highlights": [
@@ -35,7 +51,7 @@
     ]
   },
   {
-    "id": "proj-03",
+    "id": "proj-04",
     "title": "Shoese Project",
     "description": "A modern e-commerce platform for shoes — users can browse, search, filter by category, view product details, and manage their cart seamlessly.",
     "techStack": ["React.js", "Tailwind CSS", "React Router", "Context API"],
@@ -50,151 +66,6 @@
       "Cart management with quantity control",
       "Responsive layout for mobile and desktop",
       "Discount price calculation logic"
-    ]
-  },
-
-  {
-    "id": "proj-04",
-    "title": "Dev Portfolio (Personal Site)",
-    "description": "My personal portfolio — showcases projects, blog links, contact form, and resume download.",
-    "techStack": ["Next.js", "Tailwind CSS", "Vercel"],
-    "liveUrl": "https://yourname.dev",
-    "repoUrl": "https://github.com/your-username/portfolio",
-    "image": "/images/portfolio.png",
-    "tags": ["Next.js", "Static Site", "SEO"],
-    "year": 2025,
-    "highlights": [
-      "SSG with Next.js",
-      "Optimized images & SEO",
-      "Contact form connected to Email API"
-    ]
-  },
-  {
-    "id": "proj-05",
-    "title": "Markdown Blog CMS",
-    "description": "A simple markdown-based blog CMS for developers — write, publish, and manage tags.",
-    "techStack": ["Gatsby", "GraphQL", "Contentful"],
-    "liveUrl": "https://md-blog.example.com",
-    "repoUrl": "https://github.com/your-username/md-blog-cms",
-    "image": "/images/md-blog.png",
-    "tags": ["Blog", "CMS", "Markdown"],
-    "year": 2023,
-    "highlights": [
-      "Markdown editor with live preview",
-      "Tag-based filtering",
-      "Fast static build"
-    ]
-  },
-  {
-    "id": "proj-06",
-    "title": "Realtime Chat App",
-    "description": "Realtime chat app — create rooms, live messaging, and view online status.",
-    "techStack": ["React.js", "Socket.io", "Node.js", "MongoDB"],
-    "liveUrl": "https://chatlive.example.com",
-    "repoUrl": "https://github.com/your-username/realtime-chat",
-    "image": "/images/chat-app.png",
-    "tags": ["Realtime", "Socket.io", "Websockets"],
-    "year": 2024,
-    "highlights": [
-      "Realtime messaging with Socket.io",
-      "Online/offline presence",
-      "Message history stored in DB"
-    ]
-  },
-  {
-    "id": "proj-07",
-    "title": "ShopStream (E-commerce)",
-    "description": "A small e-commerce storefront — browse products, manage cart, and checkout using Stripe.",
-    "techStack": ["React.js", "Redux", "Node.js", "Stripe"],
-    "liveUrl": "https://shopstream.example.com",
-    "repoUrl": "https://github.com/your-username/shopstream",
-    "image": "/images/shopstream.png",
-    "tags": ["Ecommerce", "Payments", "Redux"],
-    "year": 2025,
-    "highlights": [
-      "Stripe integration for payments",
-      "State management with Redux",
-      "Product filtering & pagination"
-    ]
-  },
-  {
-    "id": "proj-08",
-    "title": "Recipe Hub",
-    "description": "A recipe sharing platform — browse, filter, and save favorite recipes.",
-    "techStack": ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    "liveUrl": "https://recipe-hub.example.com",
-    "repoUrl": "https://github.com/your-username/recipe-hub",
-    "image": "/images/recipe-hub.png",
-    "tags": ["Fullstack", "CRUD", "Auth"],
-    "year": 2024,
-    "highlights": [
-      "User authentication with JWT",
-      "Create, edit, delete recipes",
-      "Image upload & responsive gallery"
-    ]
-  },
-  {
-    "id": "proj-09",
-    "title": "ShopStream (E-commerce)",
-    "description": "A small e-commerce storefront — browse products, manage cart, and checkout using Stripe.",
-    "techStack": ["React.js", "Redux", "Node.js", "Stripe"],
-    "liveUrl": "https://shopstream.example.com",
-    "repoUrl": "https://github.com/your-username/shopstream",
-    "image": "/images/shopstream.png",
-    "tags": ["Ecommerce", "Payments", "Redux"],
-    "year": 2025,
-    "highlights": [
-      "Stripe integration for payments",
-      "State management with Redux",
-      "Product filtering & pagination"
-    ]
-  },
-  {
-    "id": "proj-10",
-    "title": "Dev Portfolio (Personal Site)",
-    "description": "My personal portfolio — showcases projects, blog links, contact form, and resume download.",
-    "techStack": ["Next.js", "Tailwind CSS", "Vercel"],
-    "liveUrl": "https://yourname.dev",
-    "repoUrl": "https://github.com/your-username/portfolio",
-    "image": "/images/portfolio.png",
-    "tags": ["Next.js", "Static Site", "SEO"],
-    "year": 2025,
-    "highlights": [
-      "SSG with Next.js",
-      "Optimized images & SEO",
-      "Contact form connected to Email API"
-    ]
-  },
-  {
-    "id": "proj-11",
-    "title": "Markdown Blog CMS",
-    "description": "A simple markdown-based blog CMS for developers — write, publish, and manage tags.",
-    "techStack": ["Gatsby", "GraphQL", "Contentful"],
-    "liveUrl": "https://md-blog.example.com",
-    "repoUrl": "https://github.com/your-username/md-blog-cms",
-    "image": "/images/md-blog.png",
-    "tags": ["Blog", "CMS", "Markdown"],
-    "year": 2023,
-    "highlights": [
-      "Markdown editor with live preview",
-      "Tag-based filtering",
-      "Fast static build"
-    ]
-  },
-  {
-    "id": "proj-12",
-    "title": "Realtime Chat App",
-    "description": "Realtime chat app — create rooms, live messaging, and view online status.",
-    "techStack": ["React.js", "Socket.io", "Node.js", "MongoDB"],
-    "liveUrl": "https://chatlive.example.com",
-    "repoUrl": "https://github.com/your-username/realtime-chat",
-    "image": "/images/chat-app.png",
-    "tags": ["Realtime", "Socket.io", "Websockets"],
-    "year": 2024,
-    "highlights": [
-      "Realtime messaging with Socket.io",
-      "Online/offline presence",
-      "Message history stored in DB"
     ]
   }
 ]
