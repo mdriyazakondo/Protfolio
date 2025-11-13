@@ -47,8 +47,8 @@ const About = () => {
             }}
           >
             <img
-              className="w-full h-full border-1 rounded-full border-blue-600"
-              src="/mdriyazakondo-removebg-preview.png"
+              className="w-full h-full border-1 rounded-full border-blue-600 object-cover"
+              src="https://ik.imagekit.io/2o23yla4n/Gemini_Generated_Image_8e089v8e089v8e08-removebg-preview.png?updatedAt=1763071776242"
               alt="Profile"
             />
           </motion.div>

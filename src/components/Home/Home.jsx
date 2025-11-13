@@ -137,7 +137,7 @@ const Home = () => {
         transition={{ duration: 1 }}
       >
         <motion.div
-          className="border-2 border-white rounded-full overflow-hidden w-72 h-72 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px]"
+          className="border-2  border-sky-600 rounded-full overflow-hidden w-72 h-72 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px]"
           animate={{
             y: [0, -20, 0], // continuous floating animation
           }}
@@ -149,8 +149,8 @@ const Home = () => {
           }}
         >
           <img
-            className="w-full h-full border-1 rounded-full border-blue-600 "
-            src="/mdriyazakondo-removebg-preview.png"
+            className="w-full h-full border-1 rounded-full border-blue-600 object-cover "
+            src="https://ik.imagekit.io/2o23yla4n/Gemini_Generated_Image_8e089v8e089v8e08-removebg-preview.png?updatedAt=1763071776242"
             alt="Profile"
           />
         </motion.div>

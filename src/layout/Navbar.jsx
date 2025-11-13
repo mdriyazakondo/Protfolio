@@ -37,9 +37,13 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
           {/* Logo */}
-          <h2 className="font1 text-xl sm:text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-            MD RIYAZ AKONDO
-          </h2>
+
+          <img
+            className="w-24 h-12"
+            // src="https://ik.imagekit.io/2o23yla4n/image-removebg-preview%20(3).png?updatedAt=1763072976650"
+            src="https://ik.imagekit.io/2o23yla4n/Teal_Letter_R_with_Pen_Nib-removebg-preview.png?updatedAt=1763075200907"
+            alt=""
+          />
 
           {/* Desktop Menu */}
           <nav className="hidden lg:block">
