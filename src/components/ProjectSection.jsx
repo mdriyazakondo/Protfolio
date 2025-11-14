@@ -13,9 +13,9 @@ const ProjectSection = () => {
   }, []);
 
   return (
-    <div className="my-12 mx-5 md:mx-0 space-y-10">
+    <div className="my-12  md:mx-0 space-y-10  ">
       <SectionTitle title={"My Projects"} />
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="max-w-[1210px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
         {porjects.map((project, index) => (
           <Projecct key={index} project={project} />
         ))}
