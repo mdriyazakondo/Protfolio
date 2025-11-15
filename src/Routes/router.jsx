@@ -6,11 +6,13 @@ import Skills from "../pages/Skills";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
 import Error from "../components/Error";
+import Loading from "../pages/Loading";
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
     errorElement: <Error></Error>,
+    hydrateFallbackElement: <Loading />,
     children: [
       {
         path: "/",
