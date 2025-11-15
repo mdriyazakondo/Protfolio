@@ -113,7 +113,7 @@ const Home = () => {
           className="flex flex-wrap justify-center md:justify-start gap-4 mt-6"
         >
           <a
-            href="/resume.pdf"
+            href="/Riyaz.pdf"
             download
             className="px-6 py-2 bg-gradient-to-r from-cyan-400 to-blue-500 text-white font-semibold rounded-md shadow-md hover:scale-105 transition-all"
           >
