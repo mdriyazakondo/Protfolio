@@ -3,7 +3,14 @@
     "id": "proj-01",
     "title": "KrishiLink-Farmer’s",
     "description": "A client-side web application for farmers to manage their produce, connect with buyers, and track orders in real-time.",
-    "techStack": ["React.js", "Tailwind CSS", "Vercel"],
+    "techStack": [
+      "React.js",
+      "Tailwind CSS",
+      "express",
+      "mongodb",
+      "Firebase",
+      "Vercel"
+    ],
     "liveUrl": "https://farmer-client-site.vercel.app/",
     "repoUrl": "https://github.com/mdriyazakondo/Farmer-client-site.git",
     "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1763206964473",
