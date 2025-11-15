@@ -6,7 +6,7 @@
     "techStack": ["React.js", "Tailwind CSS", "Vercel"],
     "liveUrl": "https://farmer-client-site.vercel.app/",
     "repoUrl": "https://github.com/mdriyazakondo/Farmer-client-site.git",
-    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1763206710743",
+    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1763206964473",
     "tags": ["React", "Agriculture", "Web App"],
     "year": 2025,
     "highlights": [
@@ -14,23 +14,6 @@
       "Responsive design for mobile and desktop",
       "Connects farmers with buyers",
       "Real-time order tracking"
-    ]
-  },
-  {
-    "id": "proj-02",
-    "title": "3D Model Viewer",
-    "description": "A web application to view and interact with 3D models in real-time. Users can rotate, zoom, and explore 3D objects seamlessly in the browser.",
-    "techStack": ["React.js", "Tailwind CSS", "Vercel", "mongodb"],
-    "liveUrl": "https://genuine-zabaione-067a51.netlify.app/",
-    "repoUrl": "https://github.com/mdriyazakondo/3D_Model.git",
-    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1762957945931",
-    "tags": ["React", "3D Viewer", "mongodb"],
-    "year": 2025,
-    "highlights": [
-      "Interactive 3D model viewing in browser",
-      "Zoom, rotate, and pan controls",
-      "Optimized for desktop and mobile screens",
-      "Built with Three.js for real-time rendering"
     ]
   },
   {
@@ -50,6 +33,24 @@
       "Responsive design with Tailwind CSS"
     ]
   },
+  {
+    "id": "proj-03",
+    "title": "3D Model Viewer",
+    "description": "A web application to view and interact with 3D models in real-time. Users can rotate, zoom, and explore 3D objects seamlessly in the browser.",
+    "techStack": ["React.js", "Tailwind CSS", "Vercel", "mongodb"],
+    "liveUrl": "https://genuine-zabaione-067a51.netlify.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/3D_Model.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1762957945931",
+    "tags": ["React", "3D Viewer", "mongodb"],
+    "year": 2025,
+    "highlights": [
+      "Interactive 3D model viewing in browser",
+      "Zoom, rotate, and pan controls",
+      "Optimized for desktop and mobile screens",
+      "Built with Three.js for real-time rendering"
+    ]
+  },
+
   {
     "id": "proj-03",
     "title": "Forever Project",
