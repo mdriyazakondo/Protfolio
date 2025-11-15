@@ -1,6 +1,23 @@
 [
   {
     "id": "proj-01",
+    "title": "Farmer Client Site",
+    "description": "A client-side web application for farmers to manage their produce, connect with buyers, and track orders in real-time.",
+    "techStack": ["React.js", "Tailwind CSS", "Vercel"],
+    "liveUrl": "https://farmer-client-site.vercel.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/Farmer-client-site.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1763206549749",
+    "tags": ["React", "Agriculture", "Web App"],
+    "year": 2025,
+    "highlights": [
+      "User-friendly interface for farmers",
+      "Responsive design for mobile and desktop",
+      "Connects farmers with buyers",
+      "Real-time order tracking"
+    ]
+  },
+  {
+    "id": "proj-02",
     "title": "3D Model Viewer",
     "description": "A web application to view and interact with 3D models in real-time. Users can rotate, zoom, and explore 3D objects seamlessly in the browser.",
     "techStack": ["React.js", "Tailwind CSS", "Vercel", "mongodb"],
@@ -21,8 +38,8 @@
     "title": "ToyTopia – Kids Toy Store",
     "description": "A modern toy store web app built with React and Firebase. Users can browse toys by category, view details, and manage their own products securely.",
     "techStack": ["React.js", "Firebase", "Tailwind CSS"],
-    "liveUrl": "https://assignment-8-delta-nine.vercel.app/",
-    "repoUrl": "https://github.com/mdriyazakondo/Assignment-8.git",
+    "liveUrl": "https://toy-topia-93fc0.web.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/Toy-topia.git",
     "image": "https://ik.imagekit.io/2o23yla4n/table/image.png?updatedAt=1762948604550",
     "tags": ["React", "Firebase", "Tailwind CSS"],
     "year": 2025,
