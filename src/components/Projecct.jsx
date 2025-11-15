@@ -93,11 +93,11 @@ const Projecct = ({ project }) => {
 
         {/* Tech Stack */}
         {techStack && (
-          <div className="flex flex-wrap gap-2 mt-2">
+          <div className="flex flex-wrap gap-2 mt-2 ">
             {techStack.map((tech, idx) => (
               <span
                 key={idx}
-                className="text-xs px-2 py-1 rounded light:bg-gray-200 dark:bg-gray-700 light:text-gray-800 dark:text-gray-200"
+                className="text-xs px-2 border rounded-full   py-1 border-sky-400 light:bg-gray-200 dark:bg-gray-700 light:text-gray-800 dark:text-gray-200"
               >
                 {tech}
               </span>
