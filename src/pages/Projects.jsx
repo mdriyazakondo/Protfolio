@@ -2,17 +2,26 @@ import React, { useEffect, useState } from "react";
 import SectionTitle from "../components/SectionTitle";
 import Projecct from "../components/Projecct";
 import { motion, AnimatePresence } from "framer-motion";
+import Loading from "./Loading";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 6; // 👈 change this to show more/less per page
+  const projectsPerPage = 6;
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("/portfolio.json")
       .then((res) => res.json())
-      .then((data) => setProjects(data));
+      .then((data) => {
+        setProjects(data);
+        setLoading(false);
+      });
   }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   // Pagination logic
   const indexOfLast = currentPage * projectsPerPage;

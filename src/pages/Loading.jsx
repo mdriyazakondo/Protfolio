@@ -2,7 +2,7 @@ import React from "react";
 
 const Loading = () => {
   return (
-    <div>
+    <div className="flex items-center justify-center min-h-[90vh]">
       <button
         disabled=""
         class="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold py-3 px-6 rounded-full shadow-lg flex items-center transition duration-300 transform hover:scale-105 active:scale-95"
