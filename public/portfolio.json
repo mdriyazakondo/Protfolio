@@ -21,8 +21,31 @@
       "Responsive design for mobile and desktop",
       "Connects farmers with buyers",
       "Real-time order tracking"
+    ],
+
+    "category": "Web Application",
+    "duration": "3 Weeks",
+    "role": "Frontend Developer",
+    "tools": ["VS Code", "GitHub", "Firebase Console", "Figma"],
+    "features": [
+      "Buyer-Farmer connecting system",
+      "Product listing with live update",
+      "Mobile-first UI layout"
+    ],
+    "challenges": [
+      "Handling real-time product changes",
+      "Optimizing data fetching for faster load"
+    ],
+    "solutions": [
+      "Used Firebase real-time listeners",
+      "Implemented lazy loading and state optimization"
+    ],
+    "screenshots": [
+      "/images/kishilink/home.png",
+      "/images/kishilink/dashboard.png"
     ]
   },
+
   {
     "id": "proj-02",
     "title": "Course Management System",
@@ -40,17 +63,35 @@
     "tags": ["React", "Full-Stack", "MongoDB"],
     "year": 2025,
     "highlights": [
-      "Role-based authentication and authorization",
       "Dynamic course creation and enrollment",
       "Responsive UI with Tailwind CSS",
       "RESTful API built with Express.js and MongoDB"
-    ]
+    ],
+
+    "category": "Full-Stack",
+    "duration": "4 Weeks",
+    "role": "Full-Stack Developer",
+    "tools": ["VS Code", "MongoDB Atlas", "Postman", "GitHub"],
+    "features": [
+      "Course creation with validation",
+      "Enhanced secure API endpoints"
+    ],
+    "challenges": ["Securing API for course & user data"],
+    "solutions": ["Backend validation and sanitized input handling"],
+    "screenshots": ["/images/course/home.png", "/images/course/dashboard.png"]
   },
+
   {
     "id": "proj-03",
     "title": "ToyTopia – Kids Toy Store",
     "description": "A modern toy store web app built with React and Firebase. Users can browse toys by category, view details, and manage their own products securely.",
-    "techStack": ["React.js", "Firebase", "Tailwind CSS"],
+    "techStack": [
+      "React.js",
+      "Firebase",
+      "Tailwind CSS",
+      "Velcel",
+      "Context API"
+    ],
     "liveUrl": "https://toy-topia-93fc0.web.app/",
     "repoUrl": "https://github.com/mdriyazakondo/Toy-topia.git",
     "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png",
@@ -61,7 +102,26 @@
       "Dynamic routes for toy details",
       "Add, Update, and Delete toys with secure access",
       "Responsive design with Tailwind CSS"
-    ]
+    ],
+
+    "category": "E-commerce",
+    "duration": "2 Weeks",
+    "role": "Frontend Developer",
+    "tools": ["Firebase Auth", "ImageKit", "Figma", "Git"],
+    "features": [
+      "Category-based filtering",
+      "User dashboard for products",
+      "Secure protected routes"
+    ],
+    "challenges": [
+      "Handling secure CRUD permissions",
+      "Image optimization for product images"
+    ],
+    "solutions": [
+      "Used Firebase rules for user-level security",
+      "Integrated ImageKit for fast loading"
+    ],
+    "screenshots": ["/images/toytopia/home.png", "/images/toytopia/details.png"]
   },
 
   {
@@ -80,6 +140,25 @@
       "Cart management with quantity control",
       "Responsive layout for mobile and desktop",
       "Discount price calculation logic"
-    ]
+    ],
+
+    "category": "E-commerce",
+    "duration": "2.5 Weeks",
+    "role": "Frontend Developer",
+    "tools": ["React Router", "Figma", "GitHub"],
+    "features": [
+      "Full search + filter system",
+      "Dynamic product details page",
+      "Cart system with persistence"
+    ],
+    "challenges": [
+      "Optimizing category search performance",
+      "Managing cart state globally"
+    ],
+    "solutions": [
+      "Used Context API for global cart",
+      "Optimized search with debouncing"
+    ],
+    "screenshots": ["/images/shoes/home.png", "/images/shoes/product.png"]
   }
 ]

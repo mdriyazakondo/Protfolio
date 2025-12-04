@@ -7,6 +7,7 @@ import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
 import Error from "../components/Error";
 import Loading from "../pages/Loading";
+import ProjectDetails from "../pages/ProjectDetails";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -29,6 +30,11 @@ export const router = createBrowserRouter([
       {
         path: "/project",
         element: <Projects />,
+      },
+      {
+        path: "/project/:id",
+        element: <ProjectDetails />,
+        loader: ({ params }) => fetch(`/portfolio.json/${params.id}`),
       },
       {
         path: "/contact",
