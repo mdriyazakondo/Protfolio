@@ -13,7 +13,7 @@
     ],
     "liveUrl": "https://farmer-client-site.vercel.app/",
     "repoUrl": "https://github.com/mdriyazakondo/Farmer-client-site.git",
-    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1763206964473",
+    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1763283700539",
     "tags": ["React", "Agriculture", "Web App"],
     "year": 2025,
     "highlights": [
@@ -25,6 +25,29 @@
   },
   {
     "id": "proj-02",
+    "title": "Course Management System",
+    "description": "A full-stack web app for managing courses, instructors, and students. Users can view, add, and enroll in courses with role-based access.",
+    "techStack": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "liveUrl": "https://course-manegment-2.vercel.app/",
+    "repoUrl": "https://github.com/mdriyazakondo/course-manegment-2.git",
+    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/Screenshot%202025-12-04%20151408.jpg",
+    "tags": ["React", "Full-Stack", "MongoDB"],
+    "year": 2025,
+    "highlights": [
+      "Role-based authentication and authorization",
+      "Dynamic course creation and enrollment",
+      "Responsive UI with Tailwind CSS",
+      "RESTful API built with Express.js and MongoDB"
+    ]
+  },
+  {
+    "id": "proj-03",
     "title": "ToyTopia – Kids Toy Store",
     "description": "A modern toy store web app built with React and Firebase. Users can browse toys by category, view details, and manage their own products securely.",
     "techStack": ["React.js", "Firebase", "Tailwind CSS"],
@@ -40,42 +63,7 @@
       "Responsive design with Tailwind CSS"
     ]
   },
-  {
-    "id": "proj-03",
-    "title": "3D Model Viewer",
-    "description": "A web application to view and interact with 3D models in real-time. Users can rotate, zoom, and explore 3D objects seamlessly in the browser.",
-    "techStack": ["React.js", "Tailwind CSS", "Vercel", "mongodb"],
-    "liveUrl": "https://genuine-zabaione-067a51.netlify.app/",
-    "repoUrl": "https://github.com/mdriyazakondo/3D_Model.git",
-    "image": "https://ik.imagekit.io/2o23yla4n/New%20Folder/image.png?updatedAt=1762957945931",
-    "tags": ["React", "3D Viewer", "mongodb"],
-    "year": 2025,
-    "highlights": [
-      "Interactive 3D model viewing in browser",
-      "Zoom, rotate, and pan controls",
-      "Optimized for desktop and mobile screens",
-      "Built with Three.js for real-time rendering"
-    ]
-  },
 
-  {
-    "id": "proj-03",
-    "title": "Forever Project",
-    "description": "A personal portfolio and service showcase platform — users can explore projects, services, and contact details with smooth navigation and responsive design.",
-    "techStack": ["React.js", "Tailwind CSS", "React Router", "Framer Motion"],
-    "liveUrl": "https://forever-project-seven.vercel.app/",
-    "repoUrl": "https://github.com/mdriyazakondo/forever-project.git",
-    "image": "https://ik.imagekit.io/2o23yla4n/table/image.png?updatedAt=1762949213144",
-    "tags": ["React", "Portfolio", "UI", "Responsive"],
-    "year": 2025,
-    "highlights": [
-      "Clean and modern UI/UX design",
-      "Responsive layout for all screen sizes",
-      "Smooth scrolling and animations",
-      "Showcase of projects and services",
-      "Interactive contact section"
-    ]
-  },
   {
     "id": "proj-04",
     "title": "Shoese Project",
