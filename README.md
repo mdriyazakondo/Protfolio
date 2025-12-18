@@ -1,16 +1,95 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal **Portfolio Website**, built to showcase my skills, projects, and experience as a **Frontend / MERN Stack Developer**. The portfolio highlights my technical expertise, completed projects, and ways to contact me.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👤 About Me
 
-## React Compiler
+Hi! I'm **MD Riyaz Akodno**, a passionate **Frontend Developer** with experience in building modern, responsive, and user-friendly web applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 💻 Skilled in **HTML, CSS, JavaScript, React.js**
+* 🚀 Familiar with **Node.js, Express.js, MongoDB**
+* 🎨 Focused on clean UI, reusable components & performance
+* 📚 Continuous learner & problem solver
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+), React.js
+* **Styling:** CSS, Tailwind CSS
+* **Tools:** Git, GitHub, VS Code
+* **Others:** REST API Integration
+
+---
+
+## 📂 Features
+
+* Responsive design (Mobile, Tablet, Desktop)
+* Modern UI/UX layout
+* Project showcase section
+* Skills & experience section
+* Contact information
+
+---
+
+## 🚀 Live Preview
+
+🔗 **Live Site:** *(Add your live portfolio link here)*
+
+---
+
+## 📦 Installation & Setup
+
+Follow the steps below to run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/mdriyazakondo/Protfolio.git
+
+# Navigate to the project directory
+cd Protfolio
+
+# Install dependencies (if applicable)
+npm install
+
+# Run the project
+npm start
+```
+
+---
+
+## 📸 Screenshots
+
+*Add screenshots of your portfolio here*
+
+---
+
+## 📬 Contact Me
+
+* 📧 Email: *[your-email@example.com](mailto:your-email@example.com)*
+* 💼 GitHub: [https://github.com/mdriyazakondo](https://github.com/mdriyazakondo)
+* 🌍 Portfolio: *(Add your website link)*
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+✨ *Thank you for visiting my portfolio!*
